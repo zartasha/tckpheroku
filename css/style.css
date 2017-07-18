@@ -619,13 +619,14 @@ select.search_select {
     font-size: 40px;
     display: block !important;
     line-height: .5em;
-    text-transform: capitalize;
+    text-transform: capitalize !important;
 }
 .famous_regions_div:hover h2 {
 	background: url(../images/menu_swipe.png) no-repeat;
 	background-size: 101%;
 	color: #fff;
 	font-size: 42px;
+	text-tranform: capitalize !important;
 }
 .famous_regions_div .has_bottom {
     position: absolute;
@@ -2862,4 +2863,3 @@ input.submit_type_input.form_currency_converter_field.btn_submit {
   animation-name: fadeIn30;
 }
 
-    
