@@ -13,7 +13,7 @@
 </head>
 
 
-<body class="pattern animated fadeIn">
+<body class="white_bg animated fadeIn">
 	<div class="content">
 		<!-- TOP DIV -->
 		<div class="container">	
@@ -21,17 +21,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -42,10 +44,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -60,8 +63,7 @@
 					<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
 						<ol class="breadcrumb">
 						  <li><a href="index.php">Home</a></li>
-						  <li><a href="discover.php">Discover</a></li>						  						  
-						  <li class="selected-region active"></li>
+						  <li class="active">Discover</li>
 						</ol>
 					</div>
 					<!-- ELEVATION AND WEATHER DIV -->				
@@ -85,23 +87,23 @@
 							<img class="img img-responsive" src="images/img_1.jpg" />
 							<div class="banner-text">
 								<h3 class="color-white">EXPLORE HIKING TREKS IN NARAN!</h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+							    <p class="color-white">of all the paths you take in life, make sure a few of them are dirt</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
 						<div id="slide2" class="slide">
 							<img class="img img-responsive" src="images/img_6.jpg" />
 							<div class="banner-text">
-								<h3 class="color-white">EXPLORE NATURAL BEAUTY OF NARAN!</h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+								<h3 class="color-white">EXPLORE NATURAL BEAUTY OF CHITRAL!</h3>
+							    <p class="color-white">study nature, love nature, stay close to nature. it will never fail you</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
 						<div id="slide3" class="slide">
 							<img class="img img-responsive" src="images/img_5.jpg" />
 							<div class="banner-text">
-								<h3 class="color-white">EXPLORE PLACES IN NARAN!</h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+								<h3 class="color-white">EXPLORE PLACES IN SWAT!</h3>
+							    <p class="color-white">just living is not enough... one must have sunshine, freedom and a little flower.</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
@@ -153,7 +155,7 @@
 										<a id="swat" class="region-select" href="details.php">
 											<h2 class="color-text">Swat</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -171,7 +173,7 @@
 										<a id="naran" class="region-select" href="details.php">
 											<h2 class="color-text">Naran</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -189,7 +191,7 @@
 										<a id="chitral" class="region-select" href="details.php">
 											<h2 class="color-text">Chitral</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -207,7 +209,7 @@
 										<a id="abbottabad" class="region-select" href="details.php">
 											<h2 class="color-text">Abbottabad</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -215,17 +217,17 @@
 							</div>
 						</div>
 
-						<!-- KALAM dIV -->
+						<!-- shangla dIV -->
 						<div class="col-lg-4 col-sm-6 col-xs-12 text-center">
 							<div class="zoom">
 								<div class="famous_regions_div region-5">
 									<img class="img img-responsive image_normal auto-margin" src="images/kalam.png" data-pin-nopin="true">
 									<img class="img img-responsive image_hover auto-margin" src="images/kalam-hover.png">	
 									<div class="has-feedback">
-										<a id="kalam" class="region-select" href="details.php">
-											<h2 class="color-text">Kalam</h2>
+										<a id="shangla" class="region-select" href="details.php">
+											<h2 class="color-text">shangla</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -243,7 +245,7 @@
 										<a id="peshawar" class="region-select" href="details.php">
 											<h2 class="color-text">Peshawar</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -259,9 +261,9 @@
 									<img class="img img-responsive image_hover auto-margin" src="images/abottabad-hover.png">	
 									<div class="has-feedback">
 										<a id="DIKhan" class="region-select" href="details.php">
-											<h2 class="color-text">Dera Ismail Khan</h2>
+											<h2 class="color-text">DI Khan</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -279,7 +281,7 @@
 										<a id="kohistan" class="region-select" href="details.php">
 											<h2 class="color-text">Kohistan</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -296,7 +298,7 @@
 										<a id="naran" class="region-select" href="details.php">
 											<h2 class="color-text">Naran</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -314,7 +316,7 @@
 										<a id="chitral" class="region-select" href="details.php">
 											<h2 class="color-text">Chitral</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -332,7 +334,7 @@
 										<a id="abbottabad" class="region-select" href="details.php">
 											<h2 class="color-text">Abbottabad</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -350,7 +352,7 @@
 										<a id="kalam" class="region-select" href="details.php">
 											<h2 class="color-text">Kalam</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -368,7 +370,7 @@
 										<a id="peshawar" class="region-select" href="details.php">
 											<h2 class="color-text">Peshawar</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -384,9 +386,9 @@
 									<img class="img img-responsive image_hover auto-margin" src="images/abottabad-hover.png">	
 									<div class="has-feedback">
 										<a id="DIKhan" class="region-select" href="details.php">
-											<h2 class="color-text">Dera Ismail Khan</h2>
+											<h2 class="color-text">DI Khan</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -404,7 +406,7 @@
 										<a id="kohistan" class="region-select" href="details.php">
 											<h2 class="color-text">Kohistan</h2>
 											<p class="region-description color-text">KHYBER PAKHTUNKHWA</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary auto-margin">EXPLORE</button>
 										</a>
 									</div>
@@ -431,8 +433,8 @@
 								<h2 class="color-white">PLAN YOUR TRIP IN KP</h2>
 							</div>
 						</div>
-						<div class="col-sm-4 col-xs-12"></div>
-						<div class="col-sm-4 col-xs-12 text-right">
+						<div class="col-sm-3 col-xs-12"></div>
+						<div class="col-sm-5 col-xs-12 text-right">
 							<div class="search-banner-form">
 						    	<form class="search" action="search.php">
 										<div class="form-group col-xs-12">
@@ -496,8 +498,8 @@
 				<div class="row">
 					<!-- MAIN DIV -->
 					<div class="col-lg-push-1 col-lg-10 col-lg-pull-1">
-						<h2 class="text-center">Other Places To Discover</h2>
-						<h4 class="text-center color-blue">Discover all other beautiful regions of KP</h4>
+						<h2 class="color-text sort-heading">Other Places To Discover</h2>
+						<h4 class="color-blue sort-description">Discover all other beautiful regions of KP</h4>
 						<!-- SEARCH FORM -->	
 						<form class="discover-regions-form" action="" method="">
 							<input class="form-group input-group-lg searchbox"  type="text" name="search" placeholder="Search">

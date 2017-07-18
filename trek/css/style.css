@@ -358,11 +358,7 @@ body {
 }
 
 .js-gallery-content img {
-	width: 46% !important;
 	max-height: 200px !important;
-	float: left; 
-	padding-left: 2%;
-	padding-right: 2%;
 	height: 200px;
 }
 

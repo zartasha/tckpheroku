@@ -20,17 +20,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -41,10 +43,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -61,7 +64,7 @@
 					<div class="col-sm-push-3 col-sm-6 col-sm-pull-3 col-xs-12 text-center">
 						<div class="spacing">
 							<h3 class="color-blue heading_large">Choose your adventure</h3>
-							<p class="color-black description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt, eiusmod tempor incididunt </p>
+							<p class="color-black description-text">We live in a world that is full of beauty, charm and adventure. There is no end to the adventures that we can have if only we seek them with our eyes open. </p>
 						</div>
 					</div>
 				</div>
@@ -78,7 +81,7 @@
 							 	<param name="src" value="images/home_page_illlustrations-03.svg">
 							</object>					
 							<h2 class="color-blue">Discover</h2>
-							<p class="color-text intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							<p class="color-text intro-text">Happy the man who, like ulysses, has made a fine voyage, or has won Golden Fleece, and then returns, experienced and knowledgeable, to spend the rest of his life among his family.</p>
 							<button class="btn btn-default">GO</button>
 						</div>
 					</a>
@@ -91,7 +94,7 @@
 							 	<param name="src" value="images/home_page_illlustrations-02-cropped.svg">
 							</object>
 							<h2 class="color-blue">Navigation</h2>
-							<p class="color-text intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							<p class="color-text intro-text">When walking alone in a jungle of true darkness, there are three things that can show you the way: instinct to survive, the knowledge of navigation, creative imagination. Without them, you are lost. </p>
 							<button class="btn btn-default">GO</button>
 						</div>
 					</a>

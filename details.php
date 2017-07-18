@@ -25,10 +25,16 @@
 	          		<h3 class="modal-title color-black sort-heading">The Bliss of <span class="selected-area"></h3>
 	        	</div>
 	        	<div class="modal-body">
-	          		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. Vivamus ut metus felis. Mauris feugiat diam nec odio ullamcorper gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id magna pharetra, imperdiet orci luctus, commodo urna. Aenean venenatis velit non turpis sollicitudin viverra. Ut mattis enim vel magna fermentum lacinia. Donec risus ligula, maximus et justo ut, semper ultrices sem. Phasellus vehicula nisi in mauris egestas ultricies.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. Vivamus ut metus felis. Mauris feugiat diam nec odio ullamcorper gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id magna pharetra, imperdiet orci luctus, commodo urna. Aenean venenatis velit non turpis sollicitudin viverra. Ut mattis enim vel magna fermentum lacinia. Donec risus ligula, maximus et justo ut, semper ultrices sem. Phasellus vehicula nisi in mauris egestas ultricies. 	
+	          		<p>Under the shadows of Tirichmir in the Hindukush mountain range, the valley of Swat in the Khyber Pakhtunkhwa province of Pakistan is a fascinating combination of scenic beauty and cultural diversity. The land of apples, apricots, pears and pomegranates, Swat stretches from 1,094m to 7778m above sea level (ASL) at Tirichmir Peak. With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, Swat truly is an enchanting part of Pakistan.</p>
+					<p>The area is bordered by Afghanistan in the north and west, with the narrow Afghan Wakhan corridor separating it from Tajikistan, Dir Kohistan in the south and Gilgit in the east. Swat can be accessed via several mountain passes, the most famous being the Lowari Top (3,118m) approx. crossing the Hindu Raj (a spur of the higher Hindukush) in the south and the Shandur Pass (3,798m) forming the eastern gateway from Gilgit. Other passes include the Dorah Pass from Badakshan in Afghanistan and the Broghal (3,798m) from the Wakhan Corridor in Afghanistan. Although these two passes represented the main arteries of the ancient Silk Route to Yarkand and Kashgar in China and Badakhsan in Afghanistan, they are not much in use today.</p>
+					<h4 class="color-blue">HISTORICAL Swat</h4>
+					<p>Situated on the main Crossroad to Central Asia, Swat has a long and fascinating history. In fact, it is this strategic location that compelled invaders to capture it before any other area in the region. The recorded history of Swat begins with the Tibetans invading Yasin in early 8th century AD, followed by the Chinese I 750 AD and the Buddhists in 900 AD. Later, the Kalash also ruled Swat for decades.</p>
+
+					<p>In the 14th century, Swat became a unified independent kingdom under the rule of Shah Nasir Rais. In 1570, the Rais dynasty was replaced by the Katoor Dynasty. The famous mehtar of Swat Aman-ul-Mulk ruled from 1857 to 1892. In 1895, the siege of Swat Fort took place and lasted a month, after which Swat remained an independent state under British rule. Finally, in 1969 it was merged into Pakistan.</p>
+
+					<p>Today, Swat hosts ancient Swati Tribes as well as nomads who were invited by the mehtars to settle in the state. Swat is also home to the ancient pagan tribe of the Kalash who are now confined to the three valleys of Bamburat, Rambur and Birir. The original state of Swat covered a greater area, with its border reaching as for as Badakhshan and Bashqal in the north-west and Kunar Valley in the south (these areas are now part of Afghanistan). In addition, this extended to Sherqilla on its north-eatern front and which lies in Gilgit today.</p>  
+					<h4 class="color-blue">CULTURE </h4>
+					<p>The culture of Swat bears traces of Greek, Iranian,Tatar and Turkish influences due to its unique location and historical links with Central Asia and Europe.The Swati people call the land of Swat “Kho” and their language is Khowar. Persian is spoken only Madaglasht Valley. Pushto and Urdu have also made their into Swat. Other languages spoken in Swat include Kalash, Gujari, Nuristani, Dameli, Wakhi, Kirghiz, Yidgha, Gawar-Bati and Phalura. The tradition of hospitality can be observed throughout northern Pakistan but in few places it is offered as generously as in Swat. Swatis also have a strong musical tradition. The Swati sitar, a string instrument, can often be heard at many places and family gathering. Polo is the most popular sport in Swat which has attained dary status. Matches are festive occasions, inevitably many tourists. The world famous Shandur Polo Tournament is held between Gilgit and Swat every year from 7th to 9th of July at Shandur Pass near Laspur Valley.	
 					</p>
 	        	</div>
 	        	<div class="modal-footer">
@@ -45,17 +51,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -66,10 +74,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -85,7 +94,7 @@
 						<ol class="breadcrumb">
 						  <li><a href="index.php">Home</a></li>
 						  <li><a href="discover.php">Discover</a></li>						  						  
-						  <li class="selected-region active"></li>
+						  <li class="selected-area active"></li>
 						</ol>
 					</div>
 					<!-- ELEVATION AND WEATHER DIV -->				
@@ -109,7 +118,7 @@
 							<img class="img img-responsive" src="images/img_1.jpg" />
 							<div class="banner-text">
 								<h3 class="color-white">EXPLORE HIKING TREKS IN <span class="selected-area"></span></h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+							    <p class="color-white">of all the paths you take in life, make sure a few of them are dirt</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
@@ -117,7 +126,7 @@
 							<img class="img img-responsive" src="images/img_6.jpg" />
 							<div class="banner-text">
 								<h3 class="color-white">EXPLORE NATURAL BEAUTY OF <span class="selected-area"></span></h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+							    <p class="color-white">study nature, love nature, stay close to nature. it will never fail you</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
@@ -125,7 +134,7 @@
 							<img class="img img-responsive" src="images/img_5.jpg" />
 							<div class="banner-text">
 								<h3 class="color-white">EXPLORE PLACES IN <span class="selected-area"></span></h3>
-							    <p class="color-white">Lorem ipsum dolor sit amet</p>
+							    <p class="color-white">just living is not enough... one must have sunshine, freedom and a little flower.</p>
 			                    <a href="#"><button class="btn btn-white">VISIT NOW</button></a> 							                    
 							</div>
 						</div>
@@ -147,12 +156,11 @@
 				<div class="">
 					<div class="col-sm-12">
 						<h3 class="color-black sort-heading text-center">The Bliss of <span class="selected-area"></span></h3>
-						<h5 class="color-blue sort-description text-center">Lorem ipsum dolor sit amet</h5>
+						<h5 class="color-blue sort-description text-center">explore the unbounded beauty</h5>
 						<div class="col-lg-5 col-md-5 col-sm-12">
-							<p class="color margins">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. Vivamus ut metus felis. Mauris feugiat diam nec odio ullamcorper gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
-								Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus id magna pharetra, imperdiet orci luctus, commodo urna. Aenean venenatis velit non turpis sollicitudin viverra. Ut mattis enim vel magna fermentum lacinia. Donec risus ligula, maximus et justo ut, semper ultrices sem. Phasellus vehicula nisi in mauris egestas ultricies. <br/>
+							<p class="color margins">Under the shadows of Tirichmir in the Hindukush mountain range, the valley of Swat in the Khyber Pakhtunkhwa province of Pakistan is a fascinating combination of scenic beauty and cultural diversity. The land of apples, apricots, pears and pomegranates, hot springs, Swat truly is an enchanting part of Pakistan. <br>
+								Other passes include the Dorah Pass from Badakshan in Afghanistan and the Broghal (3,798m) from the Wakhan Corridor in Afghanistan. Although these two passes represented the main arteries of the ancient Silk Route to Yarkand and Kashgar in China they are not much in use today. <br/>
 							</p>
-							<p class="about_elevation"><span>8202'</span><br/><span>Elevation</span></p>
 							<a href="#"><p class="color-blue seeAllLink" data-toggle="modal" data-target="#detailsModal">Read More</p></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-12">
@@ -164,12 +172,12 @@
 		</div>
 
 		<!-- REGIONS SELECTION AND EVENTS SELECTION DIV -->
-		<div class="gray_bg padding">
+		<div class="gray_bg">
 			<div class="container">	
 				<!-- EVENTS SELECTION DIV -->
 				<div class="row margins text-center ">	
-					<h3 class="color-text sort-heading">FAMOUS ACTIVITIES</h3>
-					<h5 class="color-blue sort-description">Choose an activity to explore</h5>
+					<h3 class="color-black sort-heading text-center">famous activities</h3>
+					<h5 class="color-blue sort-description text-center">Choose an activity to explore</h5>
 					<form class="margins" action="" method="">
 						<select class="form-control input-group-lg" name="region_selection_sort" id="region_selection_sort">
 							<option class="selectoptions">Popularity</option>
@@ -187,9 +195,9 @@
 						<div class="col-lg-4 col-sm-6 col-xs-12 text-center ">
 							<div class="translate">
 								<div id="trekking" class="famous_events_div shadow">
-									<img id="trekking_normal" class="image_normal events_image_normal" src="images/trekking.png" />
+									<img id="trekking_normal" class="image_normal events_image_normal animated" src="images/trekking.png" />
 									<img id="trekking_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
 											<h2 class="color-black">Trekking</h2>
 											<p class="area-name"></p>
@@ -197,10 +205,10 @@
 											<p>8 differnet trekking paths</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>Trekking</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -212,20 +220,20 @@
 						<div class="text-center col-lg-4 col-sm-6 col-xs-12">
 							<div class="translate">
 								<div id="trekking2" class="famous_events_div shadow">
-									<img id="trekking2_normal" class="image_normal events_image_normal" src="images/trekking.png" />
+									<img id="trekking2_normal" class="image_normal events_image_normal animated animated" src="images/trekking.png" />
 									<img id="trekking2_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
-											<h2 class="color-black">Trekking</h2>
+											<h2 class="color-black">River rafting</h2>
 											<p class="area-name"></p>
 											<img src="images/spots-pin.png" class="img auto-margin">
 											<p>8 differnet trekking paths</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>Trekking</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -237,9 +245,9 @@
 						<div class="text-center col-lg-4 col-sm-6 col-xs-12">
 							<div class="translate">
 								<div id="sightseeing" class="famous_events_div shadow">
-									<img id="sightseeing_normal" class="image_normal events_image_normal" src="./images/sightseeing.png" />
+									<img id="sightseeing_normal" class="image_normal events_image_normal animated" src="./images/sightseeing.png" />
 									<img id="sightseeing_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
 											<h2 class="color-black">sight Seeing</h2>
 											<p class="area-name"></p>
@@ -247,10 +255,10 @@
 											<p>15 differnet sight seeing spots</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>sight Seeing</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -262,9 +270,9 @@
 						<div class="text-center col-lg-4 col-sm-6 col-xs-12">
 							<div class="translate">
 								<div id="paragliding" class="famous_events_div shadow">
-									<img id="paragliding_normal" class="image_normal events_image_normal" src="./images/paragliding.png" />
+									<img id="paragliding_normal" class="image_normal events_image_normal animated" src="./images/paragliding.png" />
 									<img id="paragliding_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
 											<h2 class="color-black">Paragliding</h2>
 											<p class="area-name"></p>
@@ -272,10 +280,10 @@
 											<p>3 amazing paragliding experiences</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>Paragliding</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -287,9 +295,9 @@
 						<div class="text-center col-lg-4 col-sm-6 col-xs-12">
 							<div class="translate">
 								<div id="fishing" class="famous_events_div shadow">
-									<img id="fishing_normal" class="image_normal events_image_normal" src="./images/fishing.png" />
+									<img id="fishing_normal" class="image_normal events_image_normal animated" src="./images/fishing.png" />
 									<img id="fishing_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
 											<h2 class="color-black">Fishing</h2>
 											<p class="area-name"></p>
@@ -297,10 +305,10 @@
 											<p>5 differnet spots for fishing and relaxing</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>Fishing</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -312,9 +320,9 @@
 						<div class="text-center col-lg-4 col-sm-6 col-xs-12">
 							<div class="translate">
 								<div id="culture" class="famous_events_div shadow">
-									<img id="culture_normal" class="image_normal events_image_normal" src="./images/cult.png" />
+									<img id="culture_normal" class="image_normal events_image_normal animated" src="./images/cult.png" />
 									<img id="culture_hover" class="image_hover events_image_hover" src="https://unsplash.it/400/320/?random" />	
-									<div class="normal_details">
+									<div class="normal_details animated">
 										<div class="has_wrapper">
 											<h2 class="color-black">Culture</h2>
 											<p class="area-name"></p>
@@ -322,10 +330,10 @@
 											<p>Explore the cultural values of naran</p>
 										</div>
 									</div>				
-									<div class="has_bottom hover_details">	
+									<div class="has_bottom hover_details animated">	
 										<h2>Culture</h2>
 										<div class="white_bg radius">					
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+											<p>With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP. </p>
 											<button class="btn btn-primary">EXPLORE</button>
 										</div>
 									</div>
@@ -364,9 +372,9 @@
 										<img class="img img-responsive" src="images/stock-img3.jpg" />
 										<h4 class="color-black site-count">1</h4>
 										<div class="site-info-text text-center">
-											<p class="color-white site-area">Kaghan Valley</p>
-											<h4 class="color-white site-name">Malika Parbat</h4>
-											<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white site-area"><span class="selected-area"></span></p>
+											<h4 class="color-white site-name">Madyan</h4>
+											<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>
@@ -382,9 +390,9 @@
 										<img class="img img-responsive" src="images/stock-img1.jpg" />
 										<h4 class="color-black site-count">2</h4>
 										<div class="site-info-text text-center">
-											<p class="color-white site-area">Kaghan Valley</p>
-											<h3 class="color-white site-name">lake saiful malook</h3>
-											<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white site-area"><span class="selected-area"></span></p>
+											<h3 class="color-white site-name">Behrain</h3>
+											<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>	
@@ -400,9 +408,9 @@
 										<img class="img img-responsive" src="images/stock-img4.jpg" />
 										<h4 class="color-black site-count">3</h4>
 										<div class="site-info-text text-center">
-											<p class="color-white site-area">Kaghan Valley</p>
-											<h3 class="color-white site-name">shinu</h3>
-											<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white site-area"><span class="selected-area"></span></p>
+											<h3 class="color-white site-name">kalam</h3>
+											<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>	
@@ -418,9 +426,9 @@
 										<img class="img img-responsive" src="images/stock-img2.jpg" />
 										<h4 class="color-black site-count">4</h4>
 										<div class="site-info-text text-center">
-											<p class="color-white site-area">Kaghan Valley</p>
-											<h3 class="color-white site-name">paras</h3>
-											<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white site-area"><span class="selected-area"></span></p>
+											<h3 class="color-white site-name">Mahodand</h3>
+											<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>	
@@ -438,7 +446,7 @@
 										<div class="site-info-text text-center">
 											<p class="color-white site-area">Kaghan Valley</p>
 											<h3 class="color-white site-name">Kiwai</h3>
-												<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+												<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>	
@@ -456,7 +464,7 @@
 										<div class="site-info-text text-center">
 											<p class="color-white site-area">Kaghan Valley</p>
 											<h3 class="color-white site-name">Shogran</h3>
-												<p class="color-white site-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+												<p class="color-white site-description animated">With its collection of rugged mountains, gushing river, hot springs and fruit-laden orchards, this area truly is an enchanting part of KP.</p>
 										</div>
 									</a>
 								</div>	
@@ -483,62 +491,62 @@
 						<div class="col-lg-6 col-xs-12">
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Al Fazal Hotel</h3>
+									<p class="food-type">desi</p>
 								</div>
 							</div>	
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Walnut Heights</h3>
+									<p class="food-type">fast food</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Hotel Swat Regency</h3>
+									<p class="food-type">Traditional</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Abasin Family Hotel</h3>
+									<p class="food-type">cultural desi</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Hotel Four Seasons</h3>
+									<p class="food-type">fast food</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Royal Palace</h3>
+									<p class="food-type">traditional,cultural,desi</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Al Jazeera Hotel</h3>
+									<p class="food-type">desi</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">City Tower café</h3>
+									<p class="food-type">café, juices</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">Karishma Hotel</h3>
+									<p class="food-type">desi, traditional</p>
 								</div>
 							</div>
 							<div class="col-lg-6 col-xs-12">
 								<div class="food-box">
-									<h5 class="food-name">Pellentesque egizzle</h3>
-									<p class="food-type">type of resturant</p>
+									<h5 class="food-name">the summer queen</h3>
+									<p class="food-type">fast food, café, juices </p>
 								</div>
 							</div>
 						</div>	
@@ -563,7 +571,7 @@
 				<div class="col-xs-pull-1 col-xs-10 col-xs-push-1 text-center">
 					<div class="row">
 						<h3 class="color-white sort-heading">hotels and resthouses</h3>
-						<h5 class="color-white sort-description">View hotels and resturants based on their check-in and check-out times an number of guests consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+						<h5 class="color-white sort-description">View hotels and resturants based on their check-in and check-out times an number of guests and get an approximation about the accomodation expenses</h5>
 					
 						<!-- SEARCH FORM -->	
 						<form class="form-inline hotel-search" action="search.php">
@@ -680,7 +688,7 @@
 												<!-- LEFT TEXT DIV -->
 												<div class="col-lg-6 col-md-6 col-xs-12">
 													<h4 class="color-black">Private Tour 4-Day Naran Trip From Peshawar with awesome activities</h4>
-													<p class="color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+													<p class="color-text">With hot springs, it is beauty part of KP.</p>
 												</div>
 											</div>
 											<div class="col-sm-12">
@@ -704,7 +712,7 @@
 												<!-- RIGHT TEXT DIV -->
 												<div class="col-lg-6 col-md-6 col-xs-12">
 													<h5 class="color-black">Private Tour 4-Day Naran Trip From Peshawar with awesome activities</h5>
-													<p class="color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+													<p class="color-text">With hot springs, it is beauty part of KP.</p>
 												</div>
 											</div>
 											<div class="col-sm-12">
@@ -728,7 +736,7 @@
 											<!-- LEFT TEXT DIV -->
 											<div class="col-lg-6 col-md-6 col-xs-12">
 												<h5 class="color-black">Private Tour 4-Day Naran Trip From Peshawar with awesome activities</h5>
-												<p class="color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+												<p class="color-text">With hot springs, it is beauty part of KP.</p>
 											</div>
 										</div>
 										<div class="col-sm-12">
@@ -752,7 +760,7 @@
 											<!-- RIGHT TEXT DIV -->
 											<div class="col-lg-6 col-md-6 col-xs-12">
 												<h5 class="color-black">Private Tour 4-Day Naran Trip From Peshawar with awesome activities</h5>
-												<p class="color-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+												<p class="color-text">With hot springs, it is beauty part of KP.</p>
 											</div>
 										</div>
 										<div class="col-sm-12">

@@ -21,17 +21,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -42,10 +44,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -89,10 +92,9 @@
 		<div class="white_bg about-trek">
 			<div class="container">
 				<div class="col-xs-12 text-justify">
-					<p class="color-black about-trek-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+					<p class="color-black about-trek-text">Under the shadows of Tirichmir in the Hindukush mountain range, the valley of Swat in the Khyber Pakhtunkhwa province of Pakistan is a fascinating combination of scenic beauty and cultural diversity. The land of apples, apricots, pears and pomegranates, hot springs, Swat truly is an enchanting part of Pakistan. Other passes include the Dorah Pass from Badakshan in Afghanistan and the Broghal (3,798m) from the Wakhan Corridor in Afghanistan.<br/>
+					Although these two passes represented the main arteries of the ancient Silk Route to Yarkand and Kashgar in China they are not much in use today. Today, Swat hosts ancient Swati Tribes as well as nomads who were invited by the mehtars to settle in the state.<br/>
+					In the 14th century, Swat became a unified independent kingdom under the rule of Shah Nasir Rais. In 1570, the Rais dynasty was replaced by the Katoor Dynasty. The famous mehtar of Swat Aman-ul-Mulk ruled from 1857 to 1892. In 1895, the siege of Swat Fort took place and lasted a month, after which Swat remained an independent state under British rule. Finally, in 1969 it was merged into Pakistan.
 					</p>
 				</div>
 			</div>
@@ -102,7 +104,7 @@
 		<div class="container">
 			<!-- TREKS SELECTION DIV -->
 			<div class="row margins text-center ">	
-				<h3 class="color-black sort-heading">FAMOUS Trekking Paths</h3>
+				<h3 class="color-black sort-heading">famous trekking paths</h3>
 				<h5 class="color-blue sort-description">Choose a trail to explore</h5>
 				<form class="margins" action="" method="">
 					<select class="form-control input-group-lg" name="trek_selection_sort" id="trek_selection_sort">
@@ -125,20 +127,20 @@
 									</object>
 
 									<div class="trek_page_normal_details has_bottom white_bg radius">
-											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<h4 class="trek-name">Madaglasht to Goleen via Krui Utch</h4>
+											<p class="trek-activities">Resturants, Bicycling, Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
 									<div class="trek_page_hover_details radius">	
 										<div class="has_bottom">
 											<div class="width_76">	
-												<h3 class="text-black">Trekking Lorem Ipsum</h3>
-												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+												<h3 class="text-black">Madaglasht to Goleen via Krui Utch</h3>
+												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<p class="text-black">Attractions: Green pastures; views of glaciers and snow-covered peaks, Gocharsar Waterfall, Rohigal Pass; Chattodak Lake, juniper forest. </p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
@@ -149,12 +151,12 @@
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_1_time" class="color-blue">1.5</h3>
-														<p class="text-black">hrs</p>
+														<h3 id="trek_1_time" class="color-blue">3</h3>
+														<p class="text-black">Days</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Speed</p>
-														<h3 id="trek_1_speed" class="color-blue">3</h3>
+														<h3 id="trek_1_speed" class="color-blue">1</h3>
 														<p class="text-black">Km/hr</p>
 													</div>
 												</div>
@@ -179,34 +181,34 @@
 									<div class="trek_page_normal_details has_bottom white_bg radius">
 											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<h4 class="trek-name">Goleen to Laspur via Phargram Pass</h4>
+											<p class="trek-activities">Bicycling, Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
 									<div class="trek_page_hover_details radius">	
 										<div class="has_bottom">
 											<div class="width_76">	
-												<h3 class="text-black">Trekking Lorem Ipsum</h3>
+												<h3 class="text-black">Goleen to Laspur via Phargram Pass</h3>
 												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<p class="text-black">Jonali polo ground, Phargram Pass, bird's eye view of Laspur Valley; including Himalayan ibex, snow leopard, grew old and ram chukor.</p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
 													<div class="col-xs-4">
 														<p class="text-black">Distance</p>
-														<h3 id="trek_2_distance" class="color-blue">8.5</h3>
+														<h3 id="trek_2_distance" class="color-blue">12</h3>
 														<p class="text-black">Km</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_2_time" class="color-blue">1.5</h3>
-														<p class="text-black">hrs</p>
+														<h3 id="trek_2_time" class="color-blue">4</h3>
+														<p class="text-black">days</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Speed</p>
-														<h3 id="trek_2_speed" class="color-blue">3</h3>
+														<h3 id="trek_2_speed" class="color-blue">0.5</h3>
 														<p class="text-black">Km/hr</p>
 													</div>
 												</div>
@@ -229,20 +231,20 @@
 									</object>
 
 									<div class="trek_page_normal_details has_bottom white_bg radius">
-											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
-											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+											<p class="recommendation">highly Recommended</p>
+											<h4 class="trek-name">Laspur to Mahodand via Katchi Khani Pass</h4>
+											<p class="trek-activities">Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
 									<div class="trek_page_hover_details radius">	
 										<div class="has_bottom">
 											<div class="width_76">	
-												<h3 class="text-black">Trekking Lorem Ipsum</h3>
-												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
-												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<h3 class="text-black">Laspur to Mahodand via Katchi Khani Pass</h3>
+												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+												<p class="recommendation">Highly Recommended</p>			
+												<p class="text-black">Birch forest; Mahodand and Nelser lakes sightings of various animals and birds, including Himalyan ibex, snow leopard, brown bear. </p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
@@ -253,12 +255,12 @@
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_3_time" class="color-blue">1.5</h3>
-														<p class="text-black">hrs</p>
+														<h3 id="trek_3_time" class="color-blue">5</h3>
+														<p class="text-black">days</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Speed</p>
-														<h3 id="trek_3_speed" class="color-blue">3</h3>
+														<h3 id="trek_3_speed" class="color-blue">2</h3>
 														<p class="text-black">Km/hr</p>
 													</div>
 												</div>
@@ -283,34 +285,34 @@
 									<div class="trek_page_normal_details has_bottom white_bg radius">
 											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<h4 class="trek-name">Laspur to Kumrat via Beshqar Gol</h4>
+											<p class="trek-activities">Resturants, Bicycling, Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
 									<div class="trek_page_hover_details radius">	
 										<div class="has_bottom">
 											<div class="width_76">	
-												<h3 class="text-black">Trekking Lorem Ipsum</h3>
+												<h3 class="text-black">Laspur to Kumrat via Beshqar Gol</h3>
 												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<p class="text-black">Beshqar and Zego Lakes; sightings of various animals and birds, including Himalyan ibex, snow leopard, brown bear, grey wolf, Indian civet.</p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
 													<div class="col-xs-4">
 														<p class="text-black">Distance</p>
-														<h3 id="trek_4_distance" class="color-blue">8.5</h3>
+														<h3 id="trek_4_distance" class="color-blue">7.5</h3>
 														<p class="text-black">Km</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_4_time" class="color-blue">1.5</h3>
-														<p class="text-black">hrs</p>
+														<h3 id="trek_4_time" class="color-blue">4</h3>
+														<p class="text-black">days</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Speed</p>
-														<h3 id="trek_4_speed" class="color-blue">3</h3>
+														<h3 id="trek_4_speed" class="color-blue">1.2</h3>
 														<p class="text-black">Km/hr</p>
 													</div>
 												</div>
@@ -335,34 +337,34 @@
 									<div class="trek_page_normal_details has_bottom white_bg radius">
 											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
 											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<h4 class="trek-name">Madaglasht to Goleen via Roghili Gol</h4>
+											<p class="trek-activities">Resturants, Bicycling, Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
 									<div class="trek_page_hover_details radius">	
 										<div class="has_bottom">
 											<div class="width_76">	
-												<h3 class="text-black">Trekking Lorem Ipsum</h3>
-												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
-												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<h3 class="text-black">Madaglasht to Goleen via Roghili Gol</h3>
+												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+												<p class="recommendation">Moderately Recommended</p>			
+												<p class="text-black">Attractions: Green pastures; views of glaciers and snow-covered peaks, Gocharsar Waterfall, Rohigal Pass; Chattodak Lake, juniper forest.</p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
 													<div class="col-xs-4">
 														<p class="text-black">Distance</p>
-														<h3 id="trek_5_distance" class="color-blue">8.5</h3>
+														<h3 id="trek_5_distance" class="color-blue">5</h3>
 														<p class="text-black">Km</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_5_time" class="color-blue">1.5</h3>
-														<p class="text-black">hrs</p>
+														<h3 id="trek_5_time" class="color-blue">2</h3>
+														<p class="text-black">days</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Speed</p>
-														<h3 id="trek_5_speed" class="color-blue">3</h3>
+														<h3 id="trek_5_speed" class="color-blue">0.3</h3>
 														<p class="text-black">Km/hr</p>
 													</div>
 												</div>
@@ -385,10 +387,10 @@
 									</object>
 
 									<div class="trek_page_normal_details has_bottom white_bg radius">
-											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
-											<p class="recommendation">Recommended</p>
-											<h4 class="">Trekking Lorem Ipsum</h4>
-											<p class="">Resturants, Bicycling, Hiking, Sites</p>
+											<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
+											<p class="recommendation">highly Recommended</p>
+											<h4 class="trek-name">Trekking Lorem Ipsum</h4>
+											<p class="trek-activities">Bicycling, Hiking, Sites</p>
 									</div>
 									<!-- HOVER DETAILS -->	
 									<div class="trek_page_cover_div"></div>		
@@ -397,19 +399,19 @@
 											<div class="width_76">	
 												<h3 class="text-black">Trekking Lorem Ipsum</h3>
 												<p class="ratings"><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span><span class="filled_stars">&#9734;</span></p>
-												<p class="recommendation">Recommended</p>			
-												<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+												<p class="recommendation">higlhy Recommended</p>			
+												<p class="text-black">Attractions: Green pastures; views of glaciers and snow-covered peaks, Gocharsar Waterfall, Rohigal Pass; Chattodak Lake, juniper forest.</p>
 											</div>
 											<div class="white_bg radius trek_specs">
 												<div class="col-lg-12"> 
 													<div class="col-xs-4">
 														<p class="text-black">Distance</p>
-														<h3 id="trek_6_distance" class="color-blue">8.5</h3>
+														<h3 id="trek_6_distance" class="color-blue">15</h3>
 														<p class="text-black">Km</p>
 													</div>
 													<div class="col-xs-4">
 														<p class="text-black">Time</p>
-														<h3 id="trek_6_time" class="color-blue">1.5</h3>
+														<h3 id="trek_6_time" class="color-blue">2</h3>
 														<p class="text-black">hrs</p>
 													</div>
 													<div class="col-xs-4">
@@ -436,7 +438,7 @@
 			<div class="container">
 				<div class="row">
 					<h3 class="color-text sort-heading text-center">Other Activities</h3>
-					<h5 class="color-blue sort-description text-center">Lorem ipsum dolor sit amet</h5>
+					<h5 class="color-blue sort-description text-center">explore other activities in region</h5>
 				</div>
 				<!-- ACTIVITIES DIV -->
 				<div class="row spacing">	
@@ -451,7 +453,7 @@
 										<div class="other-activity-info-text text-center">
 											<h4 class="color-white activity-name">Fishing</h4>
 											<p class="color-white activity-area"></p>
-											<p class="color-white activity-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white activity-description animated">It is the activity of trying to catch fish. Fish are normally caught in the wild. Techniques for catching fish include hand gathering, spearing, netting etc.</p>
 										</div>
 									</a>
 								</div>
@@ -468,7 +470,7 @@
 										<div class="other-activity-info-text text-center">
 											<h4 class="color-white activity-name">Paragliding</h3>
 											<p class="color-white activity-area"></p>
-											<p class="color-white activity-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white activity-description animated">It is the recreational and competitive adventure sport of flying paragliders: lightweight, free-flying, foot-launched glider aircraft.</p>
 										</div>
 									</a>
 								</div>	
@@ -485,7 +487,7 @@
 										<div class="other-activity-info-text text-center">
 											<h4 class="color-white activity-name">White water rafting</h3>
 											<p class="color-white activity-area"></p>
-											<p class="color-white activity-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white activity-description animated">Rafts carry great momentum, and on rivers hydraulics that are dodged by canoes and kayaks are often punched by rafts. </p>
 										</div>
 									</a>
 								</div>	
@@ -502,7 +504,7 @@
 										<div class="other-activity-info-text text-center">
 											<h4 class="color-white activity-name">Site Seeing</h3>
 											<p class="color-white activity-area"></p>
-											<p class="color-white activity-description animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida.</p>
+											<p class="color-white activity-description animated">The lofty mountain peaks can be viewed from a higher place of Town (Like roof top of the hotel where you stay) in a clear weather.</p>
 										</div>
 									</a>
 								</div>	

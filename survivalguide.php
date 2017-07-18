@@ -16,20 +16,23 @@
 
 	<div class="container">
 		<!-- TOP LOGO AND MENU DIV -->
+			<!-- TOP LOGO AND MENU DIV -->
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -40,10 +43,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -502,14 +506,11 @@
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p><br>
 										<h5 class="color-teal">Air</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										<p>PIA operates daily flights from Peshawar and Islamabad to Swat, with a flying time of around 50 minutes. 
 										</p><br>
 										<h5 class="color-teal">land</h5>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										<p>From May to December, Chitral is also accessible via Lowari Pass, with a driving time of around 10 hours and from Gilgit via Shandur Pass, with a driving time of around 12 hours. These land routes are inaccessible and remain blocked due to heavy snowfall in winter during which time road access is noly possible from Peshawar through the Kunar Valley of Afghanistan. To provide all the year access to Chitral, a tunnel (8.7 km long) with railway facility through the Lawari Pass has been developed. <br>
+										All the valleys are connected with Chitral by road but unpredictable rains, snow and landslides are common, very often resulting in complete blockage of roads. Always inquire about the road situation from concerned DC or TIC before leaving for any valley.
 										</p><br>
 										<h5 class="color-teal">sea</h5>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

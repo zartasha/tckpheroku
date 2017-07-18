@@ -22,17 +22,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -43,10 +45,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -93,35 +96,32 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h2 class="color-black heading_large text-center">Title For The Spot</h2>
-						<h4 class="color-blue text-center">Lorem ipsum dolor sit amet</h4>
+						<h2 class="color-black sort-heading text-center">Hiking trip to <span class="selected-region"></span></h2>
+						<h4 class="color-blue sort-description text-center">set your soul free</h4>
 						<div class="col-lg-7 col-md-7 col-sm-12">
-							<div class="trek-text color-black paddi">
-								<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget egestas quam. Aliquam facilisis fringilla lectus, nec dictum purus commodo ut. Pellentesque vel odio vitae sapien convallis accumsan.</b></p>
-								<p><b>Cras luctus,</b> diam vitae cursus vulputate, nulla magna porttitor diam, at semper quam nulla id urna. Praesent pulvinar id tellus eu consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget egestas quam.</p>
-								<h4>Locations Covered</h4>
-								<p>consequat eget felis non, dapibus pellentesque massa.</p>
-								<h4>Trip Itinerary</h4>
-								<p><b>Day 1</b> consequat eget felis non, dapibus pellentesque massa. Aenean id ultricies ante. Curabitur maximus ligula at pulvinar faucibus. Phasellus nec accumsan quam, eget laoreet orci. Donec quis sem vitae nisi tempor commodo at sit amet neque. Nam placerat metus est, in suscipit enim malesuada non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum nisi purus, ultricies id placerat ac, scelerisque quis felis. Duis venenatis odio vel tellus commodo feugiat. Quisque sit amet pulvinar leo, in ultricies mauris. Proin tincidunt sit amet arcu non pretium.</p>
-								<p><b>Day 2</b> consequat eget felis non, dapibus pellentesque massa. Aenean id ultricies ante. Curabitur maximus ligula at pulvinar faucibus. Phasellus nec accumsan quam, eget laoreet orci. Donec quis sem vitae nisi tempor commodo at sit amet neque. Nam placerat metus est, in suscipit enim malesuada non. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum nisi purus, ultricies id placerat ac, scelerisque quis felis. Duis venenatis odio vel tellus commodo feugiat. Quisque sit amet pulvinar leo, in ultricies mauris. Proin tincidunt sit amet arcu non pretium.</p>
+							<div class="trek-text color-black padding">
+								<p><b>The autumn festival is celebrated around mid October every year, depending each year on the ripening of the crops and fruits. The festival also celebrates the return of livestock herds from the summer pastures.</b></p>
+								<p><b>The culture</b> of Chitral bears traces of Greek, Iranian,Tatar and Tajik Turkeman influences due to its unique location and historical links with Central Asia and Europe. The Chitrali people call the land of Chitral “Kho” and their language is Khowar. Persian is spoken only in Madaglasht Valley. Pashto and Urdu have also made their way into Chitral. Other languages spoken in Chitral include Kalash, Gujari, Nuristani, Dameli, Wakhi, Kirghiz, Yidgha, Gawar-Bati and Phalura. The tradition of hospitality can be observed throughout northern Pakistan but in few places it is offered as generously as in Chitral. Chitralis also have a strong musical tradition. The Chitrali sitar, a string instrument, can often be heard at many places and family gatherings.</p>
+								<p><b>Skiing</b> is the most popular sport in Chitral which has attained legendary status. Matches are festive occasions, inviting many tourists. The world famous Shandur Polo Tournament is held between Gilgit and Chitral every year from 7th to 9th of July at Shandur Pass near Laspur Valley.</p>
+								<h4>It takes one hour of jeep drive to access the valley</h4>
+								<p><b>The winter festival</b> is celebrated from Dec. 8 -21 every year. This is the most important Kalash festival. New clothes are arranged for each family member on the eve of the festival. The grand Kalash god, Mahandeo, is offered sacrifices. </p>
+								<p><b>The lofty mountain peak</b> is the highest of Hidukush range. Tirich Mir can be viewed from a higher place of Chitral Town (Like roof top of the hotel where you stay) in a clear weather. It can also be viewed from the palace of Chitral’s King. This mountain is also highest in the world apart from Himalaya and Karakoram ranges. </p>
 								<h4>Services Included</h4>
 								<ul>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-									<li>consequat eget felis non, dapibus pellentesque massa.</li>
-								</ul>
+									<li>transport and accommodation.</li>
+									<li>free meals.</li>
+									<li>rental car.</li>
+									<li>out-door and in-door activities.</li>
+									<li>Medical treatment, including transportation to the medical facility.</li>
 							</div>
 						</div>	
 						<div class="col-lg-5 col-md-5 col-sm-12">
 							<div class="address_div">
 								<h5>Address</h5>
-								<p>Cras luctus,diam vitae cursus vulputate,</p>
+								<p>swat, pakistan</p>
 								<p>12345</p>
 								<h5>open</h5>
-								<p>All Year(10:00AM to 4:0OM)</p>
+								<p>all june(10:00AM to 4:0OPM)</p>
 								<h5>Cost</h5>
 								<p>Rs. 5000</p>
 								<h5>Age Group</h5>
@@ -150,7 +150,7 @@
 			<div class="container">
 					<div class="col-xs-12">
 						<h2 class="color-black heading_large text-center">A Glimpse</h2>
-						<h4 class="color-blue text-center">Lorem ipsum dolor sit amet</h4>						
+						<h4 class="color-blue text-center">from the previous event</h4>						
 						<div id="gallery" class="spacing"></div>						
 					</div>
 			</div>
@@ -182,6 +182,8 @@
 <script type='text/javascript' src='js/images-grid.js'></script> 
 <script type="text/javascript">
 	$(document).ready(function(){
+		$('.selected-region').text(window.sessionStorage.getItem('region'));
+
 		$('#gallery').imagesGrid({
                 images: [
                     { src: 'images/img_1.jpg', thumbnail: 'images/img_1.jpg' },
@@ -190,9 +192,9 @@
                     { src: 'images/img_4.jpg', caption: 'The long way' },
                     'images/img_5.jpg',
                     'images/img_6.jpg',
-                    { src: 'images/img_2.jpg', alt: 'Nature', title: 'Nature' },
+                    { src: 'images/img-1.jpg', alt: 'Nature', title: 'Nature' },
                     'images/img_3.jpg',
-                    { src: 'images/img_4.jpg', caption: 'The long way' },
+                    { src: 'images/img-2.jpg', caption: 'The long way' },
                     'images/img_5.jpg',
                     'images/img_6.jpg',
                     'images/img_3.jpg'

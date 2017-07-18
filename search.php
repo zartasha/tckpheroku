@@ -9,29 +9,32 @@
 <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all">
 <link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="animate-css" href="css/animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-mobile-css" href="css/jquery.mobile.css" type="text/css" media="all">
 
 </head>
 
 
 <body class="white_bg animated fadeIn">
-	<div class="content">	
+	<div class="content white_bg ">	
 		<!-- TOP DIV -->
 		<div class="container">	
 			<!-- TOP LOGO AND MENU DIV -->
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -42,10 +45,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -127,200 +131,9 @@
 			</div>
 		</div>
 
-		<!-- SEARCH FORM
-		<div class="container">
-			<div class="row margins">
-				<form class="form-inline search-form" action="search.php">
-					<div class="form-group">
-						<label class="search-label" for="category">Show me</label>
-						<select class="form-control search_select" id="category" name="category">
-						    <option value="trekking">Trekking</option>
-							<option value="sightseeing">Sight Seeing</option>
-							<option value="attractions">Attractions</option>
-							<option value="fishing">Fishing</option>
-							<option value="paragliding">Paragliding</option>
-							<option value="ziplining">Zip Lining</option>
-							<option value="rafting">White River Rafting</option>
-							<option value="culture">Culture</option>
-							<option value="transportion">Transportion</option>
-							<option value="hotel">Hotels</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label class="search-label" for="category-subtype">of type </label>
-						<select class="form-control search_select" id="category-subtype" name="category-subtype">
-						    <option value="meuseum">Meuseum</option>
-							<option value="gallery">Gallery</option>
-							<option value="nationalpark">National Park</option>
-							<option value="beach">Beach</option>
-							<option value="rental">Rental</option>
-							<option value="historicsite">Historic Site</option>
-							<option value="landmark">Land Mark</option>
-							<option value="mosque">Mosque</option>
-							<option value="viewpoint">View Point</option>
-							<option value="lorem">Lorem</option>
-							<option value="ipsum">Ipsum</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label class="search-label" for="region">in</label>
-						<select class="form-control search_select" id="region" name="region">
-							<option value="naran">Naran</option>
-							<option value="kaghan">Kaghan</option>
-							<option value="swat">Swat</option>
-							<option value="peshawar">Peshawar</option>
-							<option value="abbottabad">Abbottabad</option>
-							<option value="chitral">Chitral</option>
-							<option value="gilgit">Gilgit</option>
-							<option value="kohistan">Kohistan</option>
-							<option value="DI khan">DI Khan</option>
-							<option value="hunza">Hunza</option>
-						</select>
-					</div>
-				</form>
-			</div>
-		</div>
-		< END OF SEARCH FORM -->
-
 		<!-- RESULTS ROW -->
 		<div class="container">
 			<div class="row margins">
-				<div class="col-sm-8 col-xs-12">
-					<!-- RESULT 1-->
-					<div class="">
-						<div class="search-result-box">
-							<div class="col-sm-4 col-xs-12">
-								<img class="img img-responsive result-img" src="images/stock-img1.jpg" />
-							</div>
-
-							<div class="col-sm-6  col-xs-12">
-								<h4 class="result-title">Hotel Ipsum</h4>
-								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
-								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
-								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
-								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
-							</div>
-
-							<div class="col-sm-2  col-xs-12">
-								<div class="stay-cost animated">
-									<h3 class="color-blue"><span class="result-caption">Rs. </span><br> 1.2 K</h3>
-									<p class="result-caption">per night</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- RESULT 2-->
-					<div class="">
-						<div class="search-result-box">
-							<div class="col-sm-4 col-xs-12">
-								<img class="img img-responsive result-img" src="images/stock-img2.jpg" />
-							</div>
-
-							<div class="col-sm-6 col-xs-12">
-								<h4 class="result-title">Hotel Ipsum</h4>
-								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
-								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
-								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
-								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
-							</div>
-
-							<div class="col-sm-2 col-xs-12">
-								<div class="stay-cost animated">
-									<h3 class="color-blue"><span class="result-caption">Rs. </span><br> 1.2 K</h3>
-									<p class="result-caption">per night</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- RESULT 3-->
-					<div class="">
-						<div class="search-result-box">
-							<div class="col-sm-4 col-xs-12">
-								<img class="img img-responsive result-img" src="images/stock-img4.jpg" />
-							</div>
-
-							<div class="col-sm-6 col-xs-12">
-								<h4 class="result-title">Hotel Ipsum</h4>
-								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
-								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
-								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
-								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
-							</div>
-
-							<div class="col-sm-2 col-xs-12">
-								<div class="stay-cost animated">
-									<h3 class="color-blue"><span class="result-caption">Rs. </span><br> 1.2 K</h3>
-									<p class="result-caption">per night</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- RESULT 4-->
-					<div class="">
-						<div class="search-result-box">
-							<div class="col-sm-4 col-xs-12">
-								<img class="img img-responsive result-img" src="images/stock-img3.jpg" />
-							</div>
-
-							<div class="col-sm-6 col-xs-12">
-								<h4 class="result-title">Hotel Ipsum</h4>
-								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
-								<p class="result-icons animated">
-                                	<span><img src="images/user/noun_649646_cc.png" /></span>
-                                    <span><img src="images/user/noun_728690_cc.png" /></span>
-									<span><img src="images/user/noun_889343_cc.png" /></span>
-                                    <span><img src="images/user/noun_1026748_cc.png" /></span>
-                                </p>
-								<p class="result-description">
-                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. 
-                                </p>
-							</div>
-
-							<div class="col-sm-2 col-xs-12">
-								<div class="stay-cost animated">
-									<h3 class="color-blue"><span class="result-caption">Rs. </span><br> 1.2 K</h3>
-									<p class="result-caption">per night</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- RESULT 5-->
-					<div class="">
-						<div class="search-result-box">
-							<div class="col-sm-4 col-xs-12">
-								<img class="img img-responsive result-img" src="images/stock-img1.jpg" />
-							</div>
-
-							<div class="col-sm-6 col-xs-12">
-								<h4 class="result-title">Hotel Ipsum</h4>
-								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
-								<p class="result-icons animated">
-                                	<span><img src="images/user/noun_649646_cc.png" /></span>
-                                    <span><img src="images/user/noun_728690_cc.png" /></span>
-									<span><img src="images/user/noun_889343_cc.png" /></span>
-                                    <span><img src="images/user/noun_1026748_cc.png" /></span>
-                                </p>
-								<p class="result-description">
-                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. 
-                                </p>
-							</div>
-
-							<div class="col-sm-2 col-xs-12">
-								<div class="stay-cost animated">
-									<h3 class="color-blue"><span class="result-caption">Rs. </span><br> 1.2 K</h3>
-									<p class="result-caption">per night</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END OF RESULTS -->
-				</div>
-
 				<div class="col-sm-4 col-xs-12">
 					<div class="">
 						<form class="form-horizontal search-form" action="search.php">
@@ -362,50 +175,61 @@
 
 							<div class="form-group checks">
 								<p class="search-label">of type </p>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="meuseum" name="meuseum" id="meuseum">Meuseum
-									</label>
+								<div class="checkbox-columns">
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="meuseum" name="meuseum" id="meuseum">Meuseum
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="gallery" name="gallery" id="gallery">Gallery
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="beach" name="beach" id="beach">Beach
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="rental" name="rental" id="rental">Rental
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="mosque" name="mosque" id="mosque">Mosque
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="nationalpark" name="nationalpark" id="nationalpark">National Park
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="historicsite" name="historicsite" id="historicsite">Historic Site
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="landmark" name="landmark" id="landmark">Land Mark
+										</label>
+									</div>
+									<div class="col-sm-6 col-xs-12">
+										<label class="control-label checkbox-label">
+											<input class="types" type="checkbox" value="viewpoint" name="viewpoint" id="viewpoint">View Point
+										</label>
+									</div>
 								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="gallery" name="gallery" id="gallery">Gallery
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="nationalpark" name="nationalpark" id="nationalpark">National Park
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="beach" name="beach" id="beach">Beach
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="rental" name="rental" id="rental">Rental
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="historicsite" name="historicsite" id="historicsite">Historic Site
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="landmark" name="landmark" id="landmark">Land Mark
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="mosque" name="mosque" id="mosque">Mosque
-									</label>
-								</div>
-								<div class="col-lg-4 col-sm-6 col-xs-12">
-									<label class="control-label checkbox-label">
-										<input class="types" type="checkbox" value="viewpoint" name="viewpoint" id="viewpoint">View Point
-									</label>
+							</div>
+
+							<div class="form-group clearfix">
+								<label class="control-label search-label">In Range</label>	
+								<div class="col-lg-8 col-md-12">							
+									<div data-role="rangeslider">
+										<input type="range" name="price-min" id="price-min" value="200" min="0" max="50000" step="500">
+	      							</div>
 								</div>
 							</div>
 						</form>
@@ -473,6 +297,142 @@
 	              		<div id="map_canvas"></div>
 	              	</div>
 				</div>
+				<div class="col-sm-8 col-xs-12">
+					<!-- RESULT 1-->
+					<div class="">
+						<div class="search-result-box">
+							<div class="col-sm-4 col-xs-12">
+								<img class="img img-responsive result-img" src="images/stock-img1.jpg" />
+							</div>
+
+							<div class="col-sm-6  col-xs-12">
+								<h4 class="result-title">Hotel Ipsum</h4>
+								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
+								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
+								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
+								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
+							</div>
+
+							<div class="col-sm-2  col-xs-12">
+								<div class="stay-cost animated">
+									<h3 class="color-blue"><p class="result-caption">Rs. </p> 1.2 K</h3>
+									<p class="result-caption">per night</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- RESULT 2-->
+					<div class="">
+						<div class="search-result-box">
+							<div class="col-sm-4 col-xs-12">
+								<img class="img img-responsive result-img" src="images/stock-img2.jpg" />
+							</div>
+
+							<div class="col-sm-6 col-xs-12">
+								<h4 class="result-title">Hotel Ipsum</h4>
+								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
+								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
+								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
+								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
+							</div>
+
+							<div class="col-sm-2 col-xs-12">
+								<div class="stay-cost animated">
+									<h3 class="color-blue"><p class="result-caption">Rs. </p> 1.2 K</h3>
+									<p class="result-caption">per night</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- RESULT 3-->
+					<div class="">
+						<div class="search-result-box">
+							<div class="col-sm-4 col-xs-12">
+								<img class="img img-responsive result-img" src="images/stock-img4.jpg" />
+							</div>
+
+							<div class="col-sm-6 col-xs-12">
+								<h4 class="result-title">Hotel Ipsum</h4>
+								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
+								<p class="result-icons animated"><span><img src="images/noun_649646_cc.png" /></span><span><img src="images/noun_728690_cc.png" /></span>
+								<span><img src="images/noun_889343_cc.png" /></span><span><img src="images/noun_1026748_cc.png" /></span></p>
+								<p class="result-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. </p>
+							</div>
+
+							<div class="col-sm-2 col-xs-12">
+								<div class="stay-cost animated">
+									<h3 class="color-blue"><p class="result-caption">Rs. </p> 1.2 K</h3>
+									<p class="result-caption">per night</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- RESULT 4-->
+					<div class="">
+						<div class="search-result-box">
+							<div class="col-sm-4 col-xs-12">
+								<img class="img img-responsive result-img" src="images/stock-img3.jpg" />
+							</div>
+
+							<div class="col-sm-6 col-xs-12">
+								<h4 class="result-title">Hotel Ipsum</h4>
+								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
+								<p class="result-icons animated">
+                                	<span><img src="images/user/noun_649646_cc.png" /></span>
+                                    <span><img src="images/user/noun_728690_cc.png" /></span>
+									<span><img src="images/user/noun_889343_cc.png" /></span>
+                                    <span><img src="images/user/noun_1026748_cc.png" /></span>
+                                </p>
+								<p class="result-description">
+                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. 
+                                </p>
+							</div>
+
+							<div class="col-sm-2 col-xs-12">
+								<div class="stay-cost animated">
+									<h3 class="color-blue"><p class="result-caption">Rs. </p> 1.2 K</h3>
+									<p class="result-caption">per night</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- RESULT 5-->
+					<div class="">
+						<div class="search-result-box">
+							<div class="col-sm-4 col-xs-12">
+								<img class="img img-responsive result-img" src="images/stock-img1.jpg" />
+							</div>
+
+							<div class="col-sm-6 col-xs-12">
+								<h4 class="result-title">Hotel Ipsum</h4>
+								<p class="result-caption">Lorem ipsum dolor sit amet. </p>
+								<p class="result-icons animated">
+                                	<span><img src="images/user/noun_649646_cc.png" /></span>
+                                    <span><img src="images/user/noun_728690_cc.png" /></span>
+									<span><img src="images/user/noun_889343_cc.png" /></span>
+                                    <span><img src="images/user/noun_1026748_cc.png" /></span>
+                                </p>
+								<p class="result-description">
+                                	Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Proin vel nibh vestibulum odio laoreet venenatis. Praesent efficitur vehicula gravida. 
+                                </p>
+							</div>
+
+							<div class="col-sm-2 col-xs-12">
+								<div class="stay-cost animated">
+									<h3 class="color-blue"><p class="result-caption">Rs. </p>1.2 K</h3>
+									<p class="result-caption">per night</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- END OF RESULTS -->
+				</div>
+
 
 				<!-- SEARCH DESCRIPTION TEXT -->
 				<div class="row">
@@ -518,6 +478,7 @@
     </style>
 	<script type="text/javascript" src="js/jquery.min.js" ></script>
 	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.mobile.min.js" ></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.selected-region').text(window.sessionStorage.getItem('region'));

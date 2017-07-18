@@ -21,17 +21,19 @@
 			<div class="row top_div">
 				<div class="col-sm-12">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-6 col-sm-5 col-xs-3">
-						<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-							<a href="index.php"><img class="img logo" src="images/logo.png" alt=""></a>
-						</div>
-						<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-							<h4 class="color-blue top_div_logo_heading"> TCKP DISCOVER</h4>
-							<h5 class="heading-description">Tourism Cooperation KP</h5>
-						</div>
+					<div class="col-lg-5 col-sm-5 col-xs-3">
+						<a href="index.php">
+							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
+								<img class="img logo" src="images/logo.png" alt="">
+							</div>
+							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
+								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
+								<h5 class="heading-description">Tourism Cooperation KP</h5>
+							</div>
+						</a>
 					</div>
 					<!-- MENU DIV -->				
-					<div class="col-lg-6 col-sm-7 col-xs-9">
+					<div class="col-lg-7 col-sm-7 col-xs-9">
 							<nav class="navbar">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
@@ -42,10 +44,11 @@
 							    </div>
 							    <div class="collapse navbar-collapse" id="menuBar">
 									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="#">Sign In</a></li>
-										<li class="top-links color-black"><a href="#">Plan</a></li>
+										<li class="top-links color-black"><a href="index.php">Home</a></li>
+										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
 										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Destinations</a></li>
+										<li class="top-links color-black"><a href="#">Bookings</a></li>
+										<li class="top-links color-black"><a href="#">Activities</a></li>
 									</ul>
 								</div>
 							</nav>
@@ -60,8 +63,9 @@
 					<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
 						<ol class="breadcrumb">
 						  <li><a href="index.php">Home</a></li>
-						  <li><a href="discover.php">Discover</a></li>						  						  
-						  <li class="selected-region active"></li>
+						  <li><a href="discover.php">Discover</a></li>	
+						  <li><a class="selected-area" href="details.php"></a></li>						  						  
+						  <li class="selected-activity active"></li>
 						</ol>
 					</div>
 					<!-- ELEVATION AND WEATHER DIV -->				
@@ -93,57 +97,57 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 						<div class="search-results">
-							<img src="images/img_4.jpg" class="img img-responsive ">
+							<img src="images/swat-stockimg1.jpg" class="img img-responsive ">
 							<div class="search-section">
-								<h3 class="color-black">Rafting</h3>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<h3 class="color-black selected-activity"></h3>
+								<p class="color-text">a wonderful experience</p>
 							</div>
 							<div class="search-section">
 								<h4 class="color-black">Address</h4>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<p class="color-text">Swat River, Swat</p>
 							</div>
 							<div class="search-section contact">
 								<h4 class="color-black">Contact</h4>
 								<p class="color-text">(+92) 000 0000</p>
-								<p class="color-text">abc.com/xyz</p>
+								<p class="color-text online-resource">abc.com/xyz</p>
 							</div>
 							<a href="activity.php"><button id="site-1" class="btn btn-primary gotopage">EXPLORE</button></a>
 						</div>	
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 						<div class="search-results">
-							<img src="images/img_3.jpg" class="img img-responsive">
+							<img src="images/swat-stockimg3.jpg" class="img img-responsive">
 							<div class="search-section">
-								<h3 class="color-black">Rafting</h3>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<h3 class="color-black selected-activity"></h3>
+								<p class="color-text">challange yourself</p>
 							</div>
 							<div class="search-section">
 								<h4 class="color-black">Address</h4>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<p class="color-text">Bahrain, swat</p>
 							</div>
 							<div class="search-section contact">
 								<h4 class="color-black">Contact</h4>
 								<p class="color-text">(+92) 000 0000</p>
-								<p class="color-text">abc.com/xyz</p>
+								<p class="color-text online-resource">abc.com/xyz</p>
 							</div>
 							<a href="activity.php"><button id="site-2" class="btn btn-primary gotopage">EXPLORE</button></a>
 						</div>
 					</div>	
 					<div class="col-md-4 col-sm-6 col-xs-12 text-center">
 						<div class="search-results">
-							<img src="images/img_2.jpg" class="img img-responsive">
+							<img src="images/swat-stockimg2.jpg" class="img img-responsive">
 							<div class="search-section">
-								<h3 class="color-black">Rafting</h3>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<h3 class="color-black selected-activity"></h3>
+								<p class="color-text">Sail across the gushing waters</p>
 							</div>
 							<div class="search-section">
 								<h4 class="color-black">Address</h4>
-								<p class="color-text">Lorem ipsum dolor sit</p>
+								<p class="color-text">Utrot and Gabral</p>
 							</div>
 							<div class="search-section contact">
 								<h4 class="color-black">Contact</h4>
 								<p class="color-text">(+92) 000 0000</p>
-								<p class="color-text">abc.com/xyz</p>
+								<p class="color-text online-resource">abc.com/xyz</p>
 							</div>
 							<a href="activity.php"><button id="site-3" class="btn btn-primary gotopage">EXPLORE</button></a>									
 						</div>	
@@ -187,7 +191,8 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		//show selected area in breadcrumb
-		$('.breadcrumb .selected-region').text(window.sessionStorage.getItem('region'));  
+		$('.selected-area').text(window.sessionStorage.getItem('region')); 
+		$('.selected-activity').text(window.sessionStorage.getItem('activity'));  
 
 		// SET SELECTED ACTIVITY
 		$('button').click(function() {
