@@ -9,7 +9,6 @@
 <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all">
 <link rel="stylesheet" id="style-css" href="css/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="animate-css" href="css/animate.css" type="text/css" media="all">
-<link rel="stylesheet" id="jquery-mobile-css" href="css/jquery.mobile.css" type="text/css" media="all">
 
 </head>
 
@@ -478,7 +477,7 @@
     </style>
 	<script type="text/javascript" src="js/jquery.min.js" ></script>
 	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
-	<script type="text/javascript" src="js/jquery.mobile.min.js" ></script>
+	<script type="text/javascript" src="js/bootstrap-slider.js" ></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.selected-region').text(window.sessionStorage.getItem('region'));
