@@ -14,69 +14,97 @@
 
 
 <body class="white_bg animated fadeIn">
+
+	<!-- KP INTRO Modal -->
+		<div class="modal fade" id="KPModal" role="dialog">
+		    <div class="modal-dialog">	    
+		      <!-- Modal content-->
+		      	<div class="modal-content">
+		        	<div class="modal-header">
+		          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		          		<h3 class="modal-title color-black sort-heading">Khyber Pakhtunkhwa</h3>
+		        	</div>
+		        	<div class="modal-body">
+		          		<p>Khyber Pakhtunkhwa (abbreviated as KP; Urdu: خیبر پختونخوا‎ ; Pashto: خیبر پښتونخوا‎) is one of the four provinces of Pakistan, located in the northwestern region of the country along the international border with Afghanistan. It was officially known as North-West Frontier Province (NWFP) until 2010, and is known colloquially by various other names.</p>
+		          		<img src="images/kp.png" width="220" height="220px">	 
+						<p>Khyber Pakhtunkhwa's provincial capital and largest city is Peshawar, with Mardan being the second-largest. It shares borders with the Federally Administered Tribal Areas to the west; Gilgit–Baltistan to the northeast; Azad Kashmir, Islamabad and Punjab to the east and southeast. Khyber Pakhtunkhwa does not officially share a border with Balochistan, which instead borders FATA. Khyber Pakhtunkhwa also shares an international border with Afghanistan, to which the province is linked via the historic Khyber Pass.Khyber Pakhtunkhwa is the third-largest province of Pakistan by the size of both population and economy though it is geographically the smallest of four.[3] It comprises 10.5% of Pakistan's economy, and is home to 11.9% of Pakistan's total population, with the majority of the province's inhabitants being Pashtuns, Hazarewal, Chitrali, and Kohistanis.</p>
+						<h4 class="color-blue">HISTORY</h4>
+						<p>The Indo-Greek Gandharan civilization, which reached its zenith between the sixth and first centuries BCE, and which features prominently in the Hindu epic poem, the Mahabharatha, had one of its cores over the modern Khyber Pakhtunkhwa province.mAt around 516 BCE., Darius Hystaspes sent Scylax, a Greek seaman from Karyanda, to explore the course of the Indus river. Darius Hystaspes subsequently subdued the races dwelling west of the Indus and north of Kabul. Gandhara was incorporated into the Persian Empire as one of its far easternmost satrapy system of government. The satrapy of Gandhara is recorded to have sent troops for Xerxes' invasion of Greece in 480 BCE.</p>
+						<p>In the spring of 327 BCE Alexander the Great crossed the Indian Caucasus (Hindu Kush) and advanced to Nicaea, where Omphis, king of Taxila and other chiefs joined him. Alexander then dispatched part of his force through the valley of the Kabul River, while he himself advanced into modern Khyber Pakhtunkhwa's Bajaur and Swat regions with his troops.[13] Having defeated the Aspasians, from whom he took 40,000 prisoners and 230,000 oxen, Alexander crossed the Gouraios (Panjkora River) and entered into the territory of the Assakenoi - also in modern-day Khyber Pakhtunkhwa. Alexander then made Embolima (thought to be the region of Amb in Khyber Pakhtunkhwa) his base. The ancient region of Peukelaotis (modern Hashtnagar, 17 miles (27 km) north-west of Peshawar) submitted to the Greek invasion, leading to Nicanor, a Macedonian, being appointed satrap of the country west of the Indus, which includes the modern Khyber Pakhtunkhwa province.</p>
+
+						<h4 class="color-blue">Climate</h4>
+						<p>The climate of Khyber Pakhtunkhwa varies immensely for a region of its size, encompassing most of the many climate types found in Pakistan. The province stretching southwards from the Baroghil Pass in the Hindu Kush covers almost six degrees of latitude; it is mainly a mountainous region. Dera Ismail Khan is one of the hottest places in South Asia while in the mountains to the north the weather is mild in the summer and intensely cold in the winter. The air is generally very dry; consequently, the daily and annual range of temperature is quite large.</p>
+						<p>Rainfall also varies widely. Although large parts of Khyber Pakhtunkhwa are typically dry, the province also contains the wettest parts of Pakistan in its eastern fringe specially in monsoon season from mid June to mid September.</p>  
+						<h4 class="color-blue">Languages </h4>
+						<p>Urdu, being the national and official language, serves as a lingua franca for inter-ethnic communications, and sometimes Pashto and Urdu are the second and third languages among communities which speak other ethnic languages.[3] English is co-official and also used in education, while Arabic is used for religious purposes and education. There is some population in Peshawar city who speak Persian since nineteenth century; this population saw an increase during 1980s and 1990s due to migration from Afghanistan.[3] The table below shows the break-up of the province's first language speakers.</p>
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        	</div>
+		      	</div>
+		    </div>
+		</div>
+	<!-- END OF KP INTRO Modal -->
+
 	<div class="content">
 		<!-- TOP DIV -->
 		<div class="container">	
 			<!-- TOP LOGO AND MENU DIV -->
-			<div class="row top_div">
-				<div class="col-sm-12">	
+			<div class="col-sm-12">
+				<div class="row top_div">	
 					<!-- LOGO DIV -->
-					<div class="col-lg-5 col-sm-5 col-xs-3">
-						<a href="index.php">
-							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-9">
-								<img class="img logo" src="images/logo.png" alt="">
-							</div>
-							<div class="col-lg-10 col-md-9 col-sm-8 col-xs-3 text-left">
-								<h4 class="color-blue top_div_logo_heading">TCKP DISCOVER</h4>
-								<h5 class="heading-description">Tourism Cooperation KP</h5>
-							</div>
-						</a>
-					</div>
-					<!-- MENU DIV -->				
-					<div class="col-lg-7 col-sm-7 col-xs-9">
-							<nav class="navbar">
-								<div class="navbar-header">
-							      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuBar">
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>                        
-							      </button>
-							    </div>
-							    <div class="collapse navbar-collapse" id="menuBar">
-									<ul class="nav navbar-nav">
-										<li class="top-links color-black"><a href="index.php">Home</a></li>
-										<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
-										<li class="top-links color-black"><a href="#">Events</a></li>
-										<li class="top-links color-black"><a href="#">Bookings</a></li>
-										<li class="top-links color-black"><a href="#">Activities</a></li>
-									</ul>
-								</div>
-							</nav>
-					</div>
+					<nav class="navbar">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="col-sm-5 col-xs-3">
+						    <div class="navbar-header">							      	
+						      	<a class="navbar-brand" href="index.php">
+							      	<div class="col-sm-3 col-xs-9">
+										<img class="img logo" src="images/logo.png" alt="">
+									</div>
+									<div class="col-sm-9 col-xs-3 text-left">
+										<h4 class="color-blue top_div_logo_heading">TCKP</h4>
+										<h5 class="heading-description">Tourism Cooperation KP</h5>
+									</div>
+								</a>
+						    </div>
+						</div>
+
+						<!-- Collect the nav links for toggling -->
+						<div class="col-sm-7 col-xs-9">
+					    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							    <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						    </button>
+							<div class="collapse navbar-collapse" id="main-menu">
+						      	<ul class="nav navbar-nav">
+						        	<li class="top-links color-black"><a href="index.php">Home</a></li>
+									<li class="top-links color-black"><a href="discover.php">Destintions</a></li>
+									<li class="top-links color-black"><a href="#">Events</a></li>
+									<li class="top-links color-black"><a href="#">Bookings</a></li>
+									<li class="top-links color-black"><a href="#">Activities</a></li>
+								</ul>						     
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</nav>
 				</div>
 			</div>
 
 			<!-- BREAD CRUMB AND WEATHER DIV -->
-			<div class="row breadcrumbdiv">	
-				<div class="col-sm-push-1 col-sm-11">
+			<div class="col-sm-push-1 col-sm-10 col-sm-pull-1">	
+				<div class="row breadcrumbdiv">
 					<!-- BREADCRUMB DIV -->
-					<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+					<div class="col-lg-6 col-xs-12">
 						<ol class="breadcrumb">
-						  <li><a href="index.php">Home</a></li>
+						  <li><a href="index.php">Home</a></li>						  
 						  <li class="active">Discover</li>
 						</ol>
-					</div>
-					<!-- ELEVATION AND WEATHER DIV -->				
-					<div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
-						<div class="col-sm-6 col-xs-12">
-						</div>
-						<div class="col-sm-6 col-xs-12">
-							<p class="about_elevation">8202'<br/>Elevation</p>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- END OF TOP DIV -->
 
 		<!-- BANNER ROW -->
 		<div class="container-fluid">
@@ -119,8 +147,26 @@
 			</div>
 		</div>
 
+		<!-- ABOUT DIV -->
+		<div class="about-kp">
+			<div class="container">
+				<div class="">
+					<div class="col-xs-12">
+						<h3 class="color-black sort-heading text-center">Khyber Pakhtunkwa</h3>
+						<div class="col-md-push-1 col-md-10 col-md-pull-1 col-sm-12 text-center">
+							<p class="color margins">Khyber Pakhtunkhwa (abbreviated as KP; Urdu: خیبر پختونخوا‎ ; Pashto: خیبر پښتونخوا‎) is one of the four provinces of Pakistan, located in the northwestern region of the country along the international border with Afghanistan. It was officially known as North-West Frontier Province (NWFP) until 2010, and is known colloquially by various other names. Khyber Pakhtunkhwa's provincial capital and largest city is Peshawar, with Mardan being the second-largest. It shares borders with the Federally Administered Tribal Areas to the west; Gilgit–Baltistan to the northeast; Azad Kashmir, Islamabad and Punjab to the east and southeast.	<br>
+							<a href="#" class="color-blue seeAllLink" data-toggle="modal" data-target="#KPModal">Read more</a></p>
+
+							<iframe src="https://player.vimeo.com/video/137777468" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END OF KP INTRO -->
+
 		<!-- REGIONS SORT AND REGIONS DISPALY DIV -->
-		<div class="regions-wrapper margins">
+		<div class="regions-wrapper pattern">
 			<div class="container">	
 				<!-- REGIONS SORT DIV -->
 				<div class="row">
@@ -423,68 +469,71 @@
 		<!-- END OF REGIONS SORT AND REGIONS DISPALY DIV -->
 
 		<!-- SEARCH ROW -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="discover-search">
-					<div class="container">
-						<!-- SEARCH FORM -->
-						<div class="col-sm-4 col-xs-12">
-							<div class="search-banner-text">				
-								<h2 class="color-white">PLAN YOUR TRIP IN KP</h2>
-							</div>
+		<div class="discover-search">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- SEARCH FORM -->
+					<div class="col-sm-push-2 col-sm-8 col-sm-pull-2 col-xs-12">
+						<div class="search-banner-text">				
+							<h2 class="color-white">SEARCH ANY SPOT IN KP</h2>
+							<span class="search-form-icon"><img src="images/search-icon.svg" alt=""></span>
 						</div>
-						<div class="col-sm-3 col-xs-12"></div>
-						<div class="col-sm-5 col-xs-12 text-right">
-							<div class="search-banner-form">
-						    	<form class="search" action="search.php">
-										<div class="form-group col-xs-12">
-										      	<select class="form-control search_select" id="category" name="category">
-										          	<option value="trekking">Trekking</option>
-													<option value="sightseeing">Sight Seeing</option>
-													<option value="attractions">Attractions</option>
-													<option value="fishing">Fishing</option>
-													<option value="paragliding">Paragliding</option>
-													<option value="ziplining">Zip Lining</option>
-													<option value="rafting">White River Rafting</option>
-													<option value="culture">Culture</option>
-													<option value="transportion">Transportion</option>
-													<option value="hotel">Hotels</option>
-										      	</select>
-										</div>
-										<div class="form-group col-xs-12">
-										      	<select class="form-control search_select" id="category-subtype" name="category-subtype">
-										          	<option value="meuseum">Meuseum</option>
-													<option value="gallery">Gallery</option>
-													<option value="nationalpark">National Park</option>
-													<option value="beach">Beach</option>
-													<option value="rental">Rental</option>
-													<option value="historicsite">Historic Site</option>
-													<option value="landmark">Land Mark</option>
-													<option value="mosque">Mosque</option>
-													<option value="viewpoint">View Point</option>
-													<option value="lorem">Lorem</option>
-													<option value="ipsum">Ipsum</option>
-										      	</select>
-									    </div>
-									    <div class="form-group col-xs-12">
-										      	<select class="form-control search_select" id="region" name="region">
-										          	<option value="naran">Naran</option>
-													<option value="kaghan">Kaghan</option>
-													<option value="swat">Swat</option>
-													<option value="peshawar">Peshawar</option>
-													<option value="abbottabad">Abbottabad</option>
-													<option value="chitral">Chitral</option>
-													<option value="gilgit">Gilgit</option>
-													<option value="kohistan">Kohistan</option>
-													<option value="DI khan">DI Khan</option>
-													<option value="hunza">Hunza</option>
-										      	</select>
-									    </div>								    
-									    <div class="form-group col-xs-12 text-right">
-										    <input type="submit" value="Submit" class="btn btn-info">
-										</div>
-								</form>
-							</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="search-banner-form">
+						<div class="col-xs-12 text-center">
+					    	<form class="search" action="search.php">
+								<div class="form-group col-sm-3 col-xs-12">
+							      	<select class="form-control search_select" id="category" name="category">
+							      		<option value="">--Select a category --</option>
+										<option value="trekking">Trekking</option>
+										<option value="sightseeing">Sight Seeing</option>
+										<option value="attractions">Attractions</option>
+										<option value="fishing">Fishing</option>
+										<option value="paragliding">Paragliding</option>
+										<option value="ziplining">Zip Lining</option>
+										<option value="rafting">White River Rafting</option>
+										<option value="culture">Culture</option>
+										<option value="transportion">Transportion</option>
+										<option value="hotel">Hotels</option>
+							      	</select>
+								</div>
+								<div class="form-group col-sm-3 col-xs-12">
+							      	<select class="form-control search_select" id="category-subtype" name="category-subtype">							      	
+							      		<option value="">--Select Type --</option>
+							          	<option value="meuseum">Meuseum</option>
+										<option value="gallery">Gallery</option>
+										<option value="nationalpark">National Park</option>
+										<option value="beach">Beach</option>
+										<option value="rental">Rental</option>
+										<option value="historicsite">Historic Site</option>
+										<option value="landmark">Land Mark</option>
+										<option value="mosque">Mosque</option>
+										<option value="viewpoint">View Point</option>
+										<option value="lorem">Lorem</option>
+										<option value="ipsum">Ipsum</option>
+							      	</select>
+							    </div>
+								<div class="form-group col-sm-3 col-xs-12">
+							      	<select class="form-control search_select" id="region" name="region">
+							      		<option value="">--Select Region --</option>
+										<option value="naran">Naran</option>
+										<option value="kaghan">Kaghan</option>
+										<option value="swat">Swat</option>
+										<option value="peshawar">Peshawar</option>
+										<option value="abbottabad">Abbottabad</option>
+										<option value="chitral">Chitral</option>
+										<option value="gilgit">Gilgit</option>
+										<option value="kohistan">Kohistan</option>
+										<option value="DI khan">DI Khan</option>
+										<option value="hunza">Hunza</option>
+							      	</select>
+						    	</div>								    
+								<div class="form-group col-sm-3 col-xs-12 text-right">
+								    <input type="submit" value="Submit" class="btn btn-info">
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
